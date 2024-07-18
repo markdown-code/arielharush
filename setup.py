@@ -20,7 +20,7 @@ INSTALL_REQUIRES = [
 setuptools.setup(
     name=NAME,
     version=VERSION,
-    description="markdown-it",
+    description="arielharush",
     url="https://github.com/markdown-code/arielharush",
     project_urls={
         "Source Code": "https://github.com/markdown-code/arielharush",
@@ -41,7 +41,7 @@ setuptools.setup(
     python_requires=">=3.8",
     # Requirements
     install_requires=INSTALL_REQUIRES,
-    packages=["markdown-it"],
+    packages=["arielharush"],
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
